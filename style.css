@@ -1,0 +1,49 @@
+
+.maindiv > div > h1{
+    text-align: center;
+    color: white;
+    background-color: #6f4e37;
+    font-size: 60px;
+    border-radius: 50px; 
+}
+
+.flex-container{
+    opacity: 0.8;
+    background-color: rgb(45, 158, 158);
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    background-image: url(https://www.shutterstock.com/image-vector/pattern-coffee-theme-geometric-minimalistic-600nw-2333109939.jpg)
+    
+    
+}
+
+.imgdiv{
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    overflow: hidden;
+    
+      
+}
+
+.imgll{
+    height: 250px;
+    width: 100%;
+    display: none;
+   
+      
+}
+
+.flex-container :hover .imgll{
+    display: block;
+     
+}
+
+.name{
+    text-align: center;
+}
+
+
